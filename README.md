@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dustykeyboard/siligong-hacktoberfest-2019.svg?branch=master)](https://travis-ci.org/dustykeyboard/siligong-hacktoberfest-2019)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
