@@ -1,5 +1,6 @@
 {
   "name": "siligong-hacktoberfest-2019",
+  "homepage": "https://dustykeyboard.github.io/siligong-hacktoberfest-2019",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
