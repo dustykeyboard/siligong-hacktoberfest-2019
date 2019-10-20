@@ -1,46 +1,23 @@
 [![Build Status](https://travis-ci.org/dustykeyboard/siligong-hacktoberfest-2019.svg?branch=master)](https://travis-ci.org/dustykeyboard/siligong-hacktoberfest-2019)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [SiligongValley #Hacktoberfest](https://www.meetup.com/SiligongValley/events/265486790/)
 
-## Available Scripts
+This year, SiligongValley is hosting a Hacktoberfest event where we will be able to bring together local developers of all levels to share in the community of open source.
 
-In the project directory, you can run:
+Our agenda will cover:
+* Welcome
+Introduction to open source, #hacktoberfest, and GitHub PRs
+* Pitch your repos
+A chance for anyone to share the open source projects they are working on and request help from the community
+* Hack together
+Spend some time looking at the issues in open source repositories
+* Create PRs
 
-### `yarn start`
+What to bring:
+* If you maintain, support or follow an open source code base, it would be great if you could bring along some simple issues which could be shared.
+* If you're new to programming or open source, bring your questions and we can help get you started.
+* Something to hack on.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Many thanks to Accelo who have have kindly offered their space for this event!
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Join SiligongValley on slack! Get involved https://siligong.com/
