@@ -1,27 +1,26 @@
 import React from 'react';
+import Section from '../components/Section';
+import Link from '../components/Link';
+import styled from 'styled-components';
+
+const WelcomeSection = styled(Section)`
+  text-align: center;
+`;
 
 export default () => (
-  <h1>
-    Welcome to
-  {' '}
-    <a
-      className="App-link"
-      href="https://www.siligongvalley.com"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      SiligongValley
-  </a>
-    {' '}
-    <a
-      className="App-link"
-      href="https://hacktoberfest.digitalocean.com"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      #Hacktoberfest
-  </a>
-    {' '}
-    2019
+  <WelcomeSection>
+    <h1>
+      Welcome to
+      {' '}
+      <Link href="https://www.siligongvalley.com">
+        SiligongValley
+      </Link>
+      {' '}
+      <Link href="https://hacktoberfest.digitalocean.com">
+        #Hacktoberfest
+      </Link>
+      {' '}
+      2019
   </h1>
+  </WelcomeSection>
 );

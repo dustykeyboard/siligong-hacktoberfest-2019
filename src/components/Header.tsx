@@ -4,6 +4,8 @@ const Header = styled.header`
   padding: 2rem;
   display: flex;
   flex-direction: column;
+  color: ${p => p.theme.color};
+  background: ${p => p.theme.background};
 
   @media (min-width: 720px) {
     flex-direction: row;

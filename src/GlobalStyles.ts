@@ -1,7 +1,8 @@
 import styledNormalize from 'styled-normalize';
 import { createGlobalStyle } from 'styled-components';
+import { ThemeType } from './theme';
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle<ThemeType>`
   ${styledNormalize};
 
   * {
@@ -9,8 +10,17 @@ const GlobalStyle = createGlobalStyle`
   }
 
   :root {
-    color: #D5EBF2;
-    background: #152347;
+    color: ${p => p.theme.color};
+    background: ${p => p.theme.background};
+  }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 `;
 
