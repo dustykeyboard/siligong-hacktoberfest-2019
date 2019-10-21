@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Header = styled.header`
-  padding: 2rem;
+  padding: ${p => p.theme.spacing};
   display: flex;
   flex-direction: column;
   color: ${p => p.theme.color};
@@ -14,7 +14,7 @@ const Header = styled.header`
   }
 
   a {
-    margin: 1rem;
+    margin: ${p => p.theme.spacing};
 
     &:hover {
       img {
