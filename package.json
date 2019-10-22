@@ -1,8 +1,30 @@
 {
   "name": "siligong-hacktoberfest-2019",
+  "description": "a meetup event in Wollongong on Thursday 24th October 2019 to encourage participation in Digital Ocean's Hacktoberfest program",
   "homepage": "https://dustykeyboard.github.io/siligong-hacktoberfest-2019",
+  "author": {
+    "name": "Philip Boardman",
+    "email": "dustykeyboard@brd.mn",
+    "url": "https://brd.mn"
+  },
+  "keywords": [
+    "Siligong",
+    "Hacktoberfest",
+    "Wollongong",
+    "Meetup"
+  ],
   "version": "0.1.0",
   "private": true,
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
   "dependencies": {
     "@types/jest": "24.0.19",
     "@types/node": "12.11.1",
@@ -12,15 +34,6 @@
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
     "typescript": "3.6.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
