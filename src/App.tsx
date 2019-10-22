@@ -8,14 +8,23 @@ import Welcome from './features/Welcome';
 import ThemeToggle from './components/ThemeToggle';
 
 const App: React.FC = () => {
-  const [themeMode, setThemeMode] = useState<ThemeMode>('light');
+  const localTheme = window.localStorage.getItem('theme');
+  let initialTheme: ThemeMode = (window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+  if (localTheme === 'light' || localTheme === 'dark') initialTheme = localTheme;
 
-  const toggleTheme = () => setThemeMode(themeMode === 'light' ? 'dark' : 'light');
+  const [theme, setTheme] = useState<ThemeMode>(initialTheme);
+
+  const toggleTheme = () => {
+    const nextTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(nextTheme);
+    window.localStorage.setItem('theme', nextTheme);
+  }
 
   return (
-    <ThemeProvider theme={getTheme(themeMode)}>
+    <ThemeProvider theme={getTheme(theme)}>
       <div>
-        <ThemeToggle themeMode={themeMode} toggleTheme={toggleTheme} />
+        <ThemeToggle {...{ theme, toggleTheme }} />
         <GlobalStyles />
         <Header />
         <Welcome />

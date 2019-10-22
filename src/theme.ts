@@ -19,7 +19,7 @@ export const dark = {
 export const light = {
   theme: {
     color: '#152347',
-    backround: '#D5EBF2',
+    background: '#D5EBF2',
     link: '#4B57EA',
     linkHover: '#69BE5A',
     spacing: '1rem',

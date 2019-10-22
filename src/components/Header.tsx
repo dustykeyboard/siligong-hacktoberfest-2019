@@ -6,8 +6,6 @@ const Header = styled.header`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: ${p => p.theme.color};
-  background: ${p => p.theme.background};
 
   @media (min-width: 720px) {
     flex-direction: row;
