@@ -2,7 +2,7 @@
 
 `SiligongHacktoberfest2019` is a meetup event in Wollongong on Thursday 24th October 2019 to encourage participation in Digital Ocean's `Hacktoberfest` program.
 
-This repo generates a static site at https://dustykeyboard.github.io/siligong-hacktoberfest-2019/ which provides information forThe event.
+This repo generates a static site at https://dustykeyboard.github.io/siligong-hacktoberfest-2019/ which provides information for the event.
 
 [![Build Status](https://travis-ci.org/dustykeyboard/siligong-hacktoberfest-2019.svg?branch=master)](https://travis-ci.org/dustykeyboard/siligong-hacktoberfest-2019)
 
