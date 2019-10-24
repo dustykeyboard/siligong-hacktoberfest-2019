@@ -7,7 +7,7 @@ import theme from './src/theme';
 
 const Themed = ({ children }) => {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme('light')}>
       {children}
     </ThemeProvider>
   )

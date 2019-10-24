@@ -5,22 +5,24 @@ import { ThemeType } from './theme';
 const GlobalStyle = createGlobalStyle<ThemeType>`
   ${styledNormalize};
 
-  * {
+  *,
+  *::after,
+  *::before {
     box-sizing: border-box;
   }
 
-  :root {
-    color: ${p => p.theme.color};
-    background: ${p => p.theme.background};
-  }
-
   body {
+    align-items: center;
+    background: ${p => p.theme.background};
+    color: ${p => p.theme.color};
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    transition: all 0.25s linear;
   }
 `;
 

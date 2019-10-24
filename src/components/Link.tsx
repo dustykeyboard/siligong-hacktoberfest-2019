@@ -3,6 +3,11 @@ import styled from 'styled-components';
 
 export const A = styled.a`
   color: ${p => p.theme.link};
+  transition: 0.3s;
+
+  &:hover {
+    color: ${p => p.theme.linkHover}
+  }
 `;
 
 export type LinkType = {

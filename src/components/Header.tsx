@@ -4,16 +4,15 @@ const Header = styled.header`
   padding: ${p => p.theme.spacing};
   display: flex;
   flex-direction: column;
-  color: ${p => p.theme.color};
-  background: ${p => p.theme.background};
+  justify-content: center;
+  align-items: center;
 
   @media (min-width: 720px) {
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
   }
 
   a {
+    display: block;
     margin: ${p => p.theme.spacing};
 
     &:hover {
