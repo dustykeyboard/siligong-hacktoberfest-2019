@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/siligong-hacktoberfest-2019/static/js/main.c379b147.chunk.js",
+    "main.js.map": "/siligong-hacktoberfest-2019/static/js/main.c379b147.chunk.js.map",
+    "runtime-main.js": "/siligong-hacktoberfest-2019/static/js/runtime-main.6bf1c0cb.js",
+    "runtime-main.js.map": "/siligong-hacktoberfest-2019/static/js/runtime-main.6bf1c0cb.js.map",
+    "static/js/2.45172625.chunk.js": "/siligong-hacktoberfest-2019/static/js/2.45172625.chunk.js",
+    "static/js/2.45172625.chunk.js.map": "/siligong-hacktoberfest-2019/static/js/2.45172625.chunk.js.map",
+    "index.html": "/siligong-hacktoberfest-2019/index.html",
+    "precache-manifest.102d4630b72a098aa0ee1c378628beae.js": "/siligong-hacktoberfest-2019/precache-manifest.102d4630b72a098aa0ee1c378628beae.js",
+    "service-worker.js": "/siligong-hacktoberfest-2019/service-worker.js",
+    "static/media/hacktoberfest.svg": "/siligong-hacktoberfest-2019/static/media/hacktoberfest.00a9aabe.svg",
+    "static/media/siligong.png": "/siligong-hacktoberfest-2019/static/media/siligong.7c63af93.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bf1c0cb.js",
+    "static/js/2.45172625.chunk.js",
+    "static/js/main.c379b147.chunk.js"
+  ]
+}
